@@ -9,17 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@liveblocks/client": "^2.23.1",
+    "@liveblocks/react": "^2.23.1",
+    "@liveblocks/react-tiptap": "^2.23.1",
+    "@liveblocks/react-ui": "^2.23.1",
+    "@tiptap/react": "^2.11.7",
+    "@tiptap/starter-kit": "^2.11.7",
+    "next": "15.3.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5"
   }
 }
